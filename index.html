@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music App</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="svg" href="favicon.svg">
 </head>
+
 <body>
     <div class="main_div">
         <div class="music_container">
             <h2 id="title"> Stupid Face</h2>
             <h3 id="artist">Abe Parker</h3>
+           
+
             <div class="img_container">
-                <img src="images/poster-1.jpg" id="img" >
+                <img src="images/poster-1.jpg" id="img">
             </div>
             <audio src="music/Stupid-Face(PaglaSongs) (1).mp3"></audio>
-        <div class="music_controls">
-            <i class="fa-solid fa-backward" id="prev" title="prev"></i>
-            <i class="fa-solid fa-play main_button" id="play" id="play"></i>
-            <i class="fa-solid fa-forward" id="next" title="next"></i>
+           
+            <!-- Progress Container -->
+
+            <div class="progress_container" id="progress_container">
+                <div class="progress_duration_meter">
+                    <div class="current duration" id="current_timer">0:00</div>
+                    <div class="duration" id="duration_timer">2:14</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+            <!-- <div class="slider_container">
+                <i class="fa fa-volume-down"></i>
+                 <input type="text" min="0" max="100" value="0" class="volume_slider" id="volume" onchange="setVolume()">
+            </div> -->
+            <div class="music_controls">
+                <i class="fa-solid fa-backward" id="prev" title="prev"></i>
+                <i class="fa-solid fa-play main_button" id="play" id="play"></i>
+                <i class="fa-solid fa-forward" id="next" title="next"></i>
+            </div>
         </div>
-    </div>
-    <div>
-        <span>Created by subhamtech</span>
-    </div>
+        <div>
+            <span>Created by subhamtech</span>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
+
 </html>
