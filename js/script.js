@@ -135,12 +135,10 @@ music.addEventListener('timeupdate', (event) => {
   if (duration) {
     durationtimer.textContent = total_time;
   }
-  
+
   //end new song
   music.addEventListener('ended',nextsong)
-  
   //Current Time duration
-
 
   let CurrentTime_min = Math.floor(currentTime / 60);
   let currentTime_sec = Math.floor(currentTime % 60);
