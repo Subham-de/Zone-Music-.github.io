@@ -135,6 +135,10 @@ music.addEventListener('timeupdate', (event) => {
   if (duration) {
     durationtimer.textContent = total_time;
   }
+  
+  //end new song
+  music.addEventListener('ended',nextsong)
+  
   //Current Time duration
 
 
