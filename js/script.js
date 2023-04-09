@@ -42,41 +42,48 @@ play.addEventListener("click",
 
 const songs = [
   {
-    music: "Ed_Sheeran_-_Perfect_(ColdMP3.com) (1)",
-    title: "Perfect",
-    artist: "Ed_Sheeran",
-    img: "poster-1",
+    music: "Yentamma(PagalWorld)",
+    title: "Yentamma",
+    artist: "Vishal Dadlani",
+    img: "xb59o_op8z0",
   },
   {
-    music: "Maroon_5_-_Memories",
-    title: "Memories",
-    artist: "Maroon_5",
-    img: "poster-2",
+    music: "Besharam Rang Pathaan 128 Kbps",
+    title: "Besharam Rang",
+    artist: "Vishal & Sheykhar",
+    img: "beshram",
   },
   {
-    music: "Night-Changes(PagalWorld)",
-    title: "Night_XChanges",
-    artist: " One Direction",
-    img: "poster-3",
+    music: "Deva Deva Brahmastra 128 Kbps",
+    title: "Deva Deva",
+    artist: " Arjit Singh",
+    img: "ranbir-kapoor-deva-deva-from-brahmastra-makes-one-feel-spiritually-powerful-with-rare-ease-001",
   },
   {
-    music: "Stupid-Face(PaglaSongs) (1)",
-    title: "Stupid Face",
-    artist: "Abe Parker",
-    img: "poster-4",
+    music: "bollywood_Vivah 2006 - Mujhe Haq Hai",
+    title: "Vivah",
+    artist: "Udit Narayan",
+    img: "crop_480x480_115994",
   },
   {
-    music: "The_Chainsmokers_ft_Halsey_-_Closer",
-    title: "Closer",
-    artist: "The_Chainsmokers",
-    img: "poster-5",
+    music: "O Bedardeya Tu Jhoothi Main Makkaar 128 Kbps",
+    title: "O Bedardeya",
+    artist: "Arjit Singh",
+    img: "maxresdefault",
   },
   {
-    music: "Unstoppable(PagalWorld)",
-    title: "Unstoppable",
-    artist: "	Sia",
-    img: "poster-2",
+    music: "Tum Hi Ho Aashiqui 2 128 Kbps",
+    title: "Tum Hi Ho",
+    artist: "	Arjit Singh",
+    img: "tumhiho",
+  },
+  {
+    music: "Main Khiladi - Selfiee-(DJMaza)",
+    title: "Main Khiladi",
+    artist: "Anu Malik",
+    img: "selfiee",
   }
+  
 ]
 
 console.log(songs)
